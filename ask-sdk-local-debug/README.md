@@ -17,7 +17,7 @@ Add the Maven package - ask-sdk-local-debug >= v1.0.0 as a [test dependency](htt
 1. To instantiate a connection to the local debugging service, run the local debug application with `com.amazon.ask.localdebug.LocalDebuggerInvoker` as the start up program and the following arguments:
 ```
 --accessToken <ACCESS_TOKEN>
---skillID <SKILL_ID>
+--skillId <SKILL_ID>
 --skillStreamHandlerClass <CLASS_NAME>
 --region <REGION> # Optional argument. Region defaults to NA.
 ```
